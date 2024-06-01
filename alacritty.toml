@@ -1,0 +1,15 @@
+# ~/.config/alacritty/alacritty.toml
+
+import = [
+    "~/.config/alacritty/keybinds.toml",
+    "~/.config/alacritty/styles.toml",
+]
+
+[shell]
+program = "/bin/zsh"
+
+[window]
+decorations = "Full"
+opacity = 1
+
+
